@@ -103,7 +103,7 @@ a{
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto auto;
-  max-width: 1492px;
+  max-width: 1452px;
   gap: 20px;
 }
 

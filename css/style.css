@@ -12,7 +12,7 @@ body{
 }
 .pageContainer {
   min-height: 100vh;
-  min-width: 100%;
+  min-width: 1492px;
   max-width: 1492px; /* Adjust max-width as needed */
   margin: 20px ; /* Centers the container horizontally */
   padding: 0; /* Adds consistent space on the sides */

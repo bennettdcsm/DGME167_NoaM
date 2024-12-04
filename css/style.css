@@ -7,15 +7,15 @@ body{
   margin: 20px;
   /*margin-right: 20px;*/
   background-color: #E3F5FC;
-  max-width: 1512px;
+  max-width: 1492px;
   height: 100vh;
 }
 .pageContainer {
   min-height: 100vh;
-  /*min-width: 100%;*/
+  min-width: 100%;
   max-width: 1492px; /* Adjust max-width as needed */
-  margin: 0 ; /* Centers the container horizontally */
-  padding: 0 20px; /* Adds consistent space on the sides */
+  margin: 20px ; /* Centers the container horizontally */
+  padding: 0; /* Adds consistent space on the sides */
   box-sizing: border-box; /* Ensures padding doesn't affect width */
   position: absolute;
   top:0;

@@ -94,7 +94,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
     // Style the animated image to match the starting position
     animatedImage.style.position = 'absolute';
-    animatedImage.style.top = `20px`;
+    animatedImage.style.top = `0px`;
     animatedImage.style.left = `${((window.innerWidth - 1492) / 2)+10}px`; // Center horizontally
     animatedImage.style.width = `1452px`;
     animatedImage.style.height = `992px`;

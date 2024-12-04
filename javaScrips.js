@@ -64,12 +64,12 @@ document.querySelectorAll('.workLink').forEach(link => {
     // Animate the thumbnail to expand (max width 1492px) and center horizontally
     setTimeout(() => {
       const viewportWidth = window.innerWidth;
-      const targetWidth = Math.min(1452, viewportWidth); // Cap the width to 1492px or viewport width
+      const targetWidth = Math.min(1492, viewportWidth); // Cap the width to 1492px or viewport width
       const targetHeight = 992; // Fixed height
       const leftPosition = (viewportWidth - targetWidth) / 2; // Center horizontally
 
       animatedImage.style.top = '0px';
-      animatedImage.style.left = `${leftPosition}px`;
+      animatedImage.style.left = `${leftPosition+13}px`;
       animatedImage.style.width = `${targetWidth}px`;
       animatedImage.style.height = `${targetHeight}px`;
       animatedImage.style.objectFit = 'cover';
@@ -94,7 +94,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
     // Style the animated image to match the starting position
     animatedImage.style.position = 'absolute';
-    animatedImage.style.top = `0px`;
+    animatedImage.style.top = `20px`;
     animatedImage.style.left = `${((window.innerWidth - 1452) / 2)}px`; // Center horizontally
     animatedImage.style.width = `1452px`;
     animatedImage.style.height = `992px`;

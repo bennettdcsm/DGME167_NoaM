@@ -69,7 +69,7 @@ document.querySelectorAll('.workLink').forEach(link => {
       const leftPosition = (viewportWidth - targetWidth) / 2; // Center horizontally
 
       animatedImage.style.top = '0px';
-      animatedImage.style.left = `${leftPosition-10}px`;
+      animatedImage.style.left = `${leftPosition}px`;
       animatedImage.style.width = `${targetWidth}px`;
       animatedImage.style.height = `${targetHeight}px`;
       animatedImage.style.objectFit = 'cover';
@@ -117,7 +117,7 @@ window.addEventListener('DOMContentLoaded', () => {
         // Default to 1492px x 992px and allow scrolling
         animatedImage.style.position = 'absolute';
         animatedImage.style.top = `${window.pageYOffset}px`;
-        animatedImage.style.left = `${(window.innerWidth - 1492) / 2}px`; // Keep centered horizontally
+        animatedImage.style.left = `${(window.innerWidth - 1452) / 2}px`; // Keep centered horizontally
         animatedImage.style.width = `1452px`;
         animatedImage.style.height = `992px`;
       }

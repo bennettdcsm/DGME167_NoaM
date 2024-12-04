@@ -7,13 +7,13 @@ body{
   margin: 20px;
   /*margin-right: 20px;*/
   background-color: #E3F5FC;
-  max-width: 1452px;
+  max-width: 1512px;
   height: 100vh;
 }
 .pageContainer {
   min-height: 100vh;
-  min-width: 100%;
-  max-width: 1452px; /* Adjust max-width as needed */
+  /*min-width: 100%;*/
+  max-width: 1492px; /* Adjust max-width as needed */
   margin: 0 ; /* Centers the container horizontally */
   padding: 0 20px; /* Adds consistent space on the sides */
   box-sizing: border-box; /* Ensures padding doesn't affect width */
@@ -103,7 +103,7 @@ a{
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto auto;
-  max-width: 1452px;
+  max-width: 1492px;
   gap: 20px;
 }
 

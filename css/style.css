@@ -12,7 +12,7 @@ body{
 }
 .pageContainer {
   min-height: 100vh;
-  min-width: 100vw;
+  min-width: 1492px;
   max-width: 1492px; /* Adjust max-width as needed */
   margin: 20px ; /* Centers the container horizontally */
   padding: 0; /* Adds consistent space on the sides */
@@ -229,10 +229,12 @@ body {
   display: flex;
   gap: 144px;
   height: 854px;
+  width: auto;
   overflow: clip;
 }
 .imgFrame{
-  height: 854px;
+  height: auto;
+  width: 426px;
   position: relative;
   overflow: hidden;
 }
